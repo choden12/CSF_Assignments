@@ -65,9 +65,9 @@ including sorting.For the brute force algorithm, one timing for each size was re
 | 32,000 | Stopped at 60-second deadline | 0.384633 |
 | 64,000 | Skipped after deadline | 1.090421 |
 
-![Log-log graph of running time against number of points](timings.png)
 - Both axes use logarithmic scales. The brute-force line rises more steeply,
 showing that its runtime grows faster. Only completed runs are plotted.
+![Log-log graph of running time against number of points](timings.png)
 
 ### 3. Crossover point
 - The smallest measured size where divide and conquer was faster was n = 42.
