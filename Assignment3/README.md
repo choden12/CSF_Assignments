@@ -74,11 +74,10 @@ the input falls within the range for the insertion sort step.
 | 32,000 | RecursionError | 0.012055 |
 | 64,000 | RecursionError | 0.021987 |
 
-![Runtime graphs and cutoff comparison](timings.png)
-
 - The first three graphs use logarithmic axes. Crashed runs have no plotted
 runtime. Basic quicksort was faster on the random inputs, while improved
 quicksort handled sorted and duplicate-heavy inputs without crashing.
+![Runtime graphs and cutoff comparison](timings.png)
 
 ### 2. Why basic quicksort is slow
 - When the input is sorted, the last element represents the maximum value.
